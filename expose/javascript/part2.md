@@ -14,22 +14,22 @@
     C. student.greeting();
     D. student["Favorite Teacher"]["name"];
     E. student["courseLoad"][0];
-13. Arithmetic
-    A. '3' + 2 will output '32' since integers map to their exact string representation.
-    B. '3' - 2 will output '1' because the string is mapped to the integer representation.
-    C. 3 + null will output '3' because null gets converted to 0 automatically. 
-    D. '3' + null will output '3null' because null gets converted directly into a string. 
-    E. true + 3 will output '4' since true evaluates to 1. 
-    F. false + null will output '0' since false evaluates to 0 and null also evaluates to 0.
-    G. '3' + undefined will output '3undefined' since undefined gets converted directly into a string. 
-    H. '3' - undefined will output 'NaN' because '3' gets converted into an integer, while undefined gets converted to NaN(not a number) and 3 - NaN will always result in 'NaN'
-14. Comparison
-    A. '2' > 1 will evaluate to true, as '2' gets converted to an integer, and 2 is greater than 1. 
-    B. '2' < '12' will evaluate to false, as both strings are being compared to eachother, and '2' comes after '1' in unicode, meaning it is greater than '1', which is why it will evaluate to false. 
-    C. 2 == '2' will evaluate to true, as '2' gets converted into an integer, and 2 is equal to 2. 
-    D. 2 === '2' will evaluate to false, as === checks equivalency without performing type conversion. Since 2 and '2' are different types, when comparing them, they are not equivalent, resulting in a value of false.  
-    E. true == 2 will evaluate to false, as true gets converted into an integer of 1, and when comparing if 1 is equal to 2, it will evaluate to false.
-    F. true === Boolean(2) will evaluate to true, as Boolean() converts any nonzero number into the Boolean value of true. Since we are comparing if true is equal to true, the comparison will evaluate to true. 
+13. Arithmetic <br>
+    A. '3' + 2 will output '32' since integers map to their exact string representation.<br>
+    B. '3' - 2 will output '1' because the string is mapped to the integer representation.<br>
+    C. 3 + null will output '3' because null gets converted to 0 automatically. <br>
+    D. '3' + null will output '3null' because null gets converted directly into a string. <br>
+    E. true + 3 will output '4' since true evaluates to 1. <br>
+    F. false + null will output '0' since false evaluates to 0 and null also evaluates to 0.<br>
+    G. '3' + undefined will output '3undefined' since undefined gets converted directly into a string. <br>
+    H. '3' - undefined will output 'NaN' because '3' gets converted into an integer, while undefined gets converted to NaN(not a number) and 3 - NaN will always result in 'NaN'<br>
+14. Comparison<br>
+    A. '2' > 1 will evaluate to true, as '2' gets converted to an integer, and 2 is greater than 1. <br>
+    B. '2' < '12' will evaluate to false, as both strings are being compared to eachother, and '2' comes after '1' in unicode, meaning it is greater than '1', which is why it will evaluate to false. <br>
+    C. 2 == '2' will evaluate to true, as '2' gets converted into an integer, and 2 is equal to 2. <br>
+    D. 2 === '2' will evaluate to false, as === checks equivalency without performing type conversion. Since 2 and '2' are different types, when comparing them, they are not equivalent, resulting in a value of false.  <br>
+    E. true == 2 will evaluate to false, as true gets converted into an integer of 1, and when comparing if 1 is equal to 2, it will evaluate to false.<br>
+    F. true === Boolean(2) will evaluate to true, as Boolean() converts any nonzero number into the Boolean value of true. Since we are comparing if true is equal to true, the comparison will evaluate to true. <br>
 15. The == and === are very similar except for one small thing. == checks for equivalency and will perform type conversion, while === checks for equivalency without performing any forms of type conversion. 
 16. Answered in part2-question16.js
 17. When the function is called with the parameters modifyArray([1,2,3], doSomething), it will double each value in the original array. In the modifyArray function, it loops through every value in the array, then uses the callback function to modify the value of the number in the array, and then pushes into the new array which will be returned. In our case, the callback function returns the original value multiplied by 2, and when run on the entire array, will return the whole array multipled by 2. 
