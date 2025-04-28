@@ -1,0 +1,2 @@
+1. The bug is the fact that .value() returns a string data type of the input, and not an integer. So, when you add two strings together, they concatenate, instead of actually being added up as integers. Now, the string that is pulled from the input is converted into an integer using Number(), which will correctly give the result when added up with another integer. 
+2. I fixed this by converting num1 and num2 into integers using the Number() function.
