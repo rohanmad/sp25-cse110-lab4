@@ -35,4 +35,3 @@
 17. When the function is called with the parameters modifyArray([1,2,3], doSomething), it will double each value in the original array. In the modifyArray function, it loops through every value in the array, then uses the callback function to modify the value of the number in the array, and then pushes into the new array which will be returned. In our case, the callback function returns the original value multiplied by 2, and when run on the entire array, will return the whole array multipled by 2. 
 18. Answered in part2-question18.js
 19. The function printNums() will output '1 4 3 2'. The function will print 1 and 4 first, as those prints are not tied to a setTimeout() function. Since 3 has a timeout of 0, it will print immediately, but still after all the original prints without a timeout. Then, one second later, 2 will print, as it is tied to a timeout value of 1000, which is one second. 
-20. 
