@@ -1,6 +1,6 @@
 1. citylots.json
-2. /Lab4_Hosted
-3. 11.7 MB
+2. expose.js
+3. 779 kB
 4. 74 ms
 5. Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
 6. GitHub.com
